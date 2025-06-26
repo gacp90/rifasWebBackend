@@ -5,6 +5,7 @@ const path = require('path');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const robots = require('express-robots-txt'); 
 
 // Crear el servidor express
 const app = express();
@@ -16,6 +17,16 @@ app.use(cors());
 // READ BODY
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ limit: '50mb', extended: true, parameterLimit: 50000 }));
+
+// ⬇️ Middleware para robots.txt
+app.use(
+    robots({
+      UserAgent: '*',
+      Disallow: ['/admin/', '/api/', '/cloud/'],
+      Allow: ['/assets/', '/'],
+      Sitemap: 'https://rifacarssocopo.com/assets/sitemap.xml',
+    })
+  );
 
 // DIRECTORIO PUBLICO
 app.use(express.static('public'));
