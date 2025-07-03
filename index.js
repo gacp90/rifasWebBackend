@@ -8,12 +8,14 @@ const bodyParser = require('body-parser');
 const robots = require('express-robots-txt'); 
 
 const botBlocker = require('./middleware/bot');
+const preventHotlink = require('./middleware/preventHotlink');
 
 // Crear el servidor express
 const app = express();
 
-// BOOT
+// BOOT ADN preventHotlink
 app.use(botBlocker);
+app.use(preventHotlink);
 
 // CORS
 app.use(cors());
