@@ -24,7 +24,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://rifacarssocopo.com/assets/sitemap.xml',
+      Sitemap: 'https://rifasaurinegro.com/assets/sitemap.xml',
     })
   );
 
