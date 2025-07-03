@@ -7,8 +7,13 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const robots = require('express-robots-txt'); 
 
+const botBlocker = require('./middleware/bot');
+
 // Crear el servidor express
 const app = express();
+
+// BOOT
+app.use(botBlocker);
 
 // CORS
 app.use(cors());
