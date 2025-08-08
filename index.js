@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://rifacaracasyei.com/assets/sitemap.xml',
+      Sitemap: 'https://rifalaplaya.com/assets/sitemap.xml',
     })
   );
 
