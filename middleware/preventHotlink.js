@@ -1,10 +1,10 @@
 // middleware/preventHotlink.js
 module.exports = function (req, res, next) {
   const allowedReferers = [
-    'https://rifacarssocopo.com',
-    'https://www.rifacarssocopo.com',
-    'https://admin.rifacarssocopo.com',
-    'https://www.admin.rifacarssocopo.com',
+    'https://tucarrorifas.com',
+    'https://www.tucarrorifas.com',
+    'https://admin.tucarrorifas.com',
+    'https://www.admin.tucarrorifas.com',
   ];
 
   const url = req.originalUrl || '';
