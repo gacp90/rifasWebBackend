@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://ganaconkingjesus.com/assets/sitemap.xml',
+      Sitemap: 'https://tucarrorifas.com/assets/sitemap.xml',
     })
   );
 
