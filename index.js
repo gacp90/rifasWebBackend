@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://tuticketdorado.com/assets/sitemap.xml',
+      Sitemap: 'https://rifasgranoriente.com/assets/sitemap.xml',
     })
   );
 
