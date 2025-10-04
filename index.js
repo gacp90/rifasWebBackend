@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://ganayproduce.com/assets/sitemap.xml',
+      Sitemap: 'https://grupolosmagicos.com/assets/sitemap.xml',
     })
   );
 
