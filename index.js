@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://ganaconbeltran.com/assets/sitemap.xml',
+      Sitemap: 'https://rifaexpres.com/assets/sitemap.xml',
     })
   );
 
