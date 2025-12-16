@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://rifasjgh.com/assets/sitemap.xml',
+      Sitemap: 'https://rifacaracasyei.com/assets/sitemap.xml',
     })
   );
 
