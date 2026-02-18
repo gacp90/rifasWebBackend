@@ -31,7 +31,7 @@ app.use(
       UserAgent: '*',
       Disallow: ['/admin/', '/api/', '/cloud/'],
       Allow: ['/assets/', '/'],
-      Sitemap: 'https://somosprime.co/assets/sitemap.xml',
+      Sitemap: 'https://rifasjgh.com/assets/sitemap.xml',
     })
   );
 
